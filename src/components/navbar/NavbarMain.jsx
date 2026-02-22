@@ -1,15 +1,35 @@
-import React from "react";
 import NavbarLogo from "./NavbarLogo";
 import NavbarLinks from "./NavbarLinks";
-import NavbarBtn from "./NavbarBtn";
 
 const NavbarMain = () => {
   return (
-    <nav className="max-h-[1300px] mx-auto px-4 w-full fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2">
-        <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-amber-950 items-center p-5 rounded-r-full rounded-l-full border-[1px] border-orange-400">
-      <NavbarLogo />
-      <NavbarLinks />
-      <NavbarBtn />
+    <nav className="fixed top-0 w-full bg-white/70 backdrop-blur-xl border-b border-slate-100 z-50">
+      <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+        
+        {/* Logo Section */}
+        <NavbarLogo />
+
+        {/* Desktop Links */}
+        <div className="hidden md:block">
+          <NavbarLinks />
+        </div>
+
+        {/* Action Button: Resume */}
+        {/* Action Button: Resume Download */}
+<div className="hidden md:block">
+  <a 
+    href="/SasidharanResume.pdf" 
+    download="/SasidharanResume.pdf"
+    className="px-6 py-2.5 bg-indigo-600 text-white text-sm font-bold rounded-xl hover:bg-slate-900 transition-all duration-300 shadow-lg shadow-indigo-100 flex items-center gap-2"
+  >
+     Resume
+  </a>
+</div>
+
+        {/* Mobile Toggle */}
+        <button className="md:hidden text-slate-900 text-2xl">
+          ☰
+        </button>
       </div>
     </nav>
   );

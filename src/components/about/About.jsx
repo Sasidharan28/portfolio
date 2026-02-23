@@ -33,13 +33,13 @@ const About = () => {
               <p>
                 I am a 3rd-year Computer Science Engineering student at 
                 <span className="text-slate-900 font-bold"> Panimalar Engineering College</span>. 
-                I specialize in building responsive React applications and robust backend systems[cite: 4, 16].
+                I specialize in building responsive React applications and robust backend systems.
               </p>
               
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="h-2 w-2 rounded-full bg-indigo-500 mt-2 flex-shrink-0"></span>
-                  <span>Frontend Intern at <span className="font-bold text-slate-800">QSpiders</span>[cite: 15].</span>
+                  <span>Frontend Intern at <span className="font-bold text-slate-800">QSpiders</span></span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="h-2 w-2 rounded-full bg-indigo-500 mt-2 flex-shrink-0"></span>
@@ -47,7 +47,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="h-2 w-2 rounded-full bg-indigo-500 mt-2 flex-shrink-0"></span>
-                  <span>Committed to writing clean, maintainable code for scalable projects[cite: 5].</span>
+                  <span>Committed to writing clean, maintainable code for scalable projects.</span>
                 </li>
               </ul>
             </div>

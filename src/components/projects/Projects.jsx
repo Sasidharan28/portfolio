@@ -4,17 +4,17 @@ const Projects = () => {
   const projects = [
     {
       title: "Network Performance Analyzer",
-      description: "System to monitor network performance by analyzing latency, packet loss, and bandwidth usage[cite: 13].",
+      description: "System to monitor network performance by analyzing latency, packet loss, and bandwidth usage.",
       tech: ["Networking", "Analysis"]
     },
     {
       title: "Hub Music App",
-      description: "Full-stack music application with secure user authentication and firewall-based backend[cite: 9, 10, 11].",
+      description: "Full-stack music application with secure user authentication and firewall-based backend.",
       tech: ["React", "Security"]
     },
     {
       title: "Portfolio Website",
-      description: "Professional portfolio built using React and Tailwind CSS to showcase academic credentials[cite: 8, 21].",
+      description: "Professional portfolio built using React and Tailwind CSS to showcase academic credentials.",
       tech: ["React", "Tailwind"]
     }
   ];

@@ -4,73 +4,67 @@ const Contact = () => {
       id="contact"
       className="min-h-screen flex items-center bg-white text-slate-900 py-24 scroll-mt-16"
     >
-      <div className="max-w-4xl mx-auto px-6 w-full text-center">
+      <div className="max-w-3xl mx-auto px-6 w-full">
         
-        {/* Simple Professional Header */}
-        <div className="mb-12">
-          <h2 className="text-4xl font-extrabold tracking-tight text-slate-900">
-            Get In <span className="text-indigo-600">Touch</span>
+        {/* Unique Side-Aligned Header */}
+        <div className="mb-20">
+          <p className="text-indigo-600 font-bold tracking-[0.3em] text-xs uppercase mb-3">
+            Available for Opportunities
+          </p>
+          <h2 className="text-5xl md:text-6xl font-black tracking-tighter text-slate-900">
+            Let's <span className="italic font-serif text-indigo-600">Connect.</span>
           </h2>
-          <div className="h-1.5 w-16 bg-indigo-600 rounded-full mx-auto mt-4"></div>
         </div>
 
-        {/* Contact Links Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* The Unique Interactive List */}
+        <div className="space-y-1">
           
-          {/* Primary Email - Navigates to Mail App */}
+          {/* Email One */}
           <a 
             href="mailto:sasi.d9864@gmail.com" 
-            className="p-8 border border-slate-100 rounded-3xl bg-slate-50/50 hover:border-indigo-500 hover:shadow-lg transition-all duration-300 group"
+            className="group flex flex-col md:flex-row md:items-center justify-between py-8 border-b border-slate-100 hover:px-4 transition-all duration-500 ease-in-out hover:bg-slate-50 rounded-xl"
           >
-            <p className="text-[10px] font-bold text-indigo-500 uppercase tracking-widest mb-2">Primary Email</p>
-            <p className="text-sm md:text-base font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
-              sasi.d9864@gmail.com
-            </p>
+            <span className="text-sm font-bold text-slate-400 uppercase tracking-widest group-hover:text-indigo-600 transition-colors">Primary Email</span>
+            <span className="text-xl md:text-2xl font-bold text-slate-800 tracking-tight">sasi.d9864@gmail.com</span>
           </a>
 
-          {/* Secondary Email - Navigates to Mail App */}
+          {/* Email Two */}
           <a 
-          
             href="mailto:sasidharanbalu28@gmail.com" 
-            className="p-8 border border-slate-100 rounded-3xl bg-slate-50/50 hover:border-indigo-500 hover:shadow-lg transition-all duration-300 group"
+            className="group flex flex-col md:flex-row md:items-center justify-between py-8 border-b border-slate-100 hover:px-4 transition-all duration-500 ease-in-out hover:bg-slate-50 rounded-xl"
           >
-            <p className="text-[10px] font-bold text-indigo-500 uppercase tracking-widest mb-2">Secondary Email</p>
-            <p className="text-sm md:text-base font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
-              sasidharanbalu28@gmail.com
-            </p>
+            <span className="text-sm font-bold text-slate-400 uppercase tracking-widest group-hover:text-indigo-600 transition-colors">Secondary Email</span>
+            <span className="text-xl md:text-2xl font-bold text-slate-800 tracking-tight">sasidharanbalu28@gmail.com</span>
           </a>
 
-          {/* LinkedIn - Professional Navigation */}
+          {/* LinkedIn */}
           <a 
             href="https://www.linkedin.com/in/sasidharan28" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-8 border border-slate-100 rounded-3xl hover:border-indigo-600 hover:shadow-lg transition-all duration-300 group"
+            className="group flex flex-col md:flex-row md:items-center justify-between py-8 border-b border-slate-100 hover:px-4 transition-all duration-500 ease-in-out hover:bg-slate-50 rounded-xl"
           >
-            <p className="text-[10px] font-bold text-indigo-500 uppercase tracking-widest mb-2">LinkedIn</p>
-            <p className="text-sm md:text-base font-bold text-slate-900 group-hover:text-indigo-600">
-              sasidharan28
-            </p>
+            <span className="text-sm font-bold text-slate-400 uppercase tracking-widest group-hover:text-indigo-600 transition-colors">LinkedIn</span>
+            <span className="text-xl md:text-2xl font-bold text-slate-800 tracking-tight underline decoration-slate-200 decoration-2 underline-offset-8 group-hover:decoration-indigo-500">sasidharan28</span>
           </a>
 
-          {/* GitHub - Professional Navigation */}
+          {/* GitHub */}
           <a 
             href="https://github.com/Sasidharan28" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-8 border border-slate-100 rounded-3xl hover:border-indigo-600 hover:shadow-lg transition-all duration-300 group"
+            className="group flex flex-col md:flex-row md:items-center justify-between py-8 border-b border-slate-100 hover:px-4 transition-all duration-500 ease-in-out hover:bg-slate-50 rounded-xl"
           >
-            <p className="text-[10px] font-bold text-indigo-500 uppercase tracking-widest mb-2">GitHub</p>
-            <p className="text-sm md:text-base font-bold text-slate-900 group-hover:text-indigo-600">
-              Sasidharan28
-            </p>
+            <span className="text-sm font-bold text-slate-400 uppercase tracking-widest group-hover:text-indigo-600 transition-colors">GitHub</span>
+            <span className="text-xl md:text-2xl font-bold text-slate-800 tracking-tight underline decoration-slate-200 decoration-2 underline-offset-8 group-hover:decoration-indigo-500">Sasidharan28</span>
           </a>
 
         </div>
 
-        {/* Professional Footer */}
-        <div className="mt-24 text-slate-400 text-sm">
-          <p>© 2026 Sasidharan B. Computer Science Student at Panimalar Engineering College.</p>
+        {/* Simplified Footer */}
+        <div className="mt-20 flex flex-col md:flex-row justify-between items-center text-slate-400 text-xs font-bold tracking-widest uppercase gap-4">
+          <p>© 2026 SASIDHARAN B</p>
+          <p>Panimalar Engineering College</p>
         </div>
 
       </div>
